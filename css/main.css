@@ -3,9 +3,21 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 
-
+html{
+		background: url("../images/blue.jpg");
+		background-attachment: fixed;
+}
 
 /* HEADER SPECIFIC ======================================== */
+
+header{
+		color: #ffa800;
+		font-family: pacifico-regular;
+		font-size: 2.0em;
+		letter-spacing: 7px;
+}
+
+
 
 /* ABOUT SPECIFIC ======================================== */
 

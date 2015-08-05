@@ -10,7 +10,9 @@ html{
 
 body{
 		font-family: raleway, sans serif;
-		height: 1200px;
+		font-size: 16px;
+		border-left: 10px solid #fff;
+		border-top: 10px solid #fff;
 }
 
 /* HEADER SPECIFIC ======================================== */
@@ -27,7 +29,6 @@ header{
 
 aside{
 		margin: -30px 0 0 90px;
-		border: 2px solid #fff;
 }
 
 aside img{
@@ -42,8 +43,19 @@ aside p{
 		text-transform: uppercase;
 		text-align: center;
 		background: #666;
-		margin: -2px 0 0 0;
+		margin: 2px 0 0 0;
 		padding: 5px;
+}
+
+aside  p:last-child{
+		margin-top: 10px;
+		background: transparent;
+		width: 390px;
+		display: block;
+		text-align: left;
+		color: #000;
+		line-height: 1.5em;
+		text-transform: capitalize;
 }
 
 /* COMPONENTS SPECIFIC ======================================== */
@@ -51,7 +63,69 @@ aside p{
 article{
 		background: #eee;
 		width: 770px;
-		height: 705px;
-		margin: -379px 100px 0px 560px;
+		height: 700px;
+		margin-bottom: 925px;
+		margin-left: 569px;
+		margin-top: -905px;
+		padding-bottom: 150px;
 }
+
+figure{
+		margin: 15px;
+		padding-top: 15px;
+}
+
+h2{
+		text-align: center;
+		text-transform: uppercase;
+		background: #666;
+		font-weight: 500;
+		width: 740px;
+		color: #fff;
+		margin-left: 15px;
+		margin-top: -15px;
+}
+
+h3{
+		margin-left: 15px;
+}
+
+p{
+		margin-left: 15px;
+		margin-top: 15px;
+}
+
+article p:last-child{
+		background: #ffa800;
+		color: #666;
+		border-radius: 5px;
+		border: 1px solid #666;
+		width: 150px;
+		height: 20px;
+		padding: 10px;
+		text-align: center;
+		font-weight: 500;
+}
+
+a{
+		color: #fff;
+		text-decoration: none;
+}
+
+article p:last-child:hover{
+		background: #666;
+		border: 1px solid #ffa800;
+}
+
+footer{
+		text-transform: uppercase;
+		-webkit-transform: rotate(-90deg);
+    	bottom: 0px;
+    	position: fixed;
+    	margin: 0px 0px 100px -80px;
+    	font-weight: 500;
+    	color: #eee;
+    	letter-spacing: 1px;
+}
+
 

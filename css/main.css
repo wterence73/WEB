@@ -67,7 +67,7 @@ article{
 		margin-bottom: 925px;
 		margin-left: 569px;
 		margin-top: -905px;
-		padding-bottom: 150px;
+		padding-bottom: 400px;
 }
 
 figure{
@@ -93,6 +93,10 @@ h3{
 p{
 		margin-left: 15px;
 		margin-top: 15px;
+}
+
+article p{
+		margin: 15px 15px 0px 15px;
 }
 
 article p:last-child{

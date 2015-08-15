@@ -99,26 +99,28 @@ article p{
 		margin: 15px 15px 0px 15px;
 }
 
-article p:last-child{
+button{
 		background: #ffa800;
 		color: #666;
 		border-radius: 5px;
 		border: 1px solid #666;
-		width: 150px;
-		height: 20px;
-		padding: 10px;
+		width: 180px;
+		height: 40px;
 		text-align: center;
 		font-weight: 500;
+		font-size: 16px;
+		margin: 25px 15px;
 }
 
 a{
-		color: #fff;
+		color: #666;
 		text-decoration: none;
 }
 
-article p:last-child:hover{
+button:hover{
 		background: #666;
 		border: 1px solid #ffa800;
+		color: #ffa800;
 }
 
 footer{

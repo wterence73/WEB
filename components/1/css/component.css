@@ -1,0 +1,59 @@
+/* Css Beginning */
+
+
+body{
+		background: url("../images/header_img.jpg") no-repeat;
+		background-position: 50%;
+		font-family: droid sans;
+		margin-top: 60px;
+}
+
+h1{
+		line-height: 100px;
+		width: 500px;
+		margin: 0 auto;
+		padding-top: 40px;
+		border-top: 1px solid #6a8d7c;
+}
+
+p{
+		font-size: 31px;
+		font-family: courgette, cursive;
+		line-height: 34px;
+		margin: 0 auto;
+		width: 500px;
+		text-align: center;
+		color: #fff;
+		border-bottom: 1px solid #6a8d7c;
+		padding-bottom: 40px;
+}
+
+ul{
+		margin-left: 400px;
+		padding-top: 30px;
+}
+
+li{
+		display: inline-block;
+		text-align: center;
+		float: left;
+		width: 110px;
+		margin: 0 auto;
+		font-size: 24px;
+		font-family: racing sans one;
+		text-transform: uppercase;
+		line-height: 26px;
+}
+
+a{
+		color: #fff;
+		text-decoration: none;
+}
+
+li:nth-child(1)::after, li:nth-child(2)::after, li:nth-child(3)::after, li:nth-child(4)::after{
+		content: "|";
+		color: #ddd;
+		font-size: 13px;
+		margin-left: 10px;
+}
+

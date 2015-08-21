@@ -1,0 +1,65 @@
+/* Css Beginning */
+
+body{
+		background: #999;
+		font-family: open sans, sans serif;
+}
+
+aside{
+		background: #fff;
+		width: 470px;
+		height: 600px;
+		margin: 0 auto;
+}
+
+h1{
+		font-family: open sans, sans-serif;
+    	font-size: 50px;
+    	line-height: 50px;
+    	font-weight: 300;
+    	color: #3e454c;
+    	margin-left: 70px;
+    	padding-top: 20px;
+}
+
+article{
+		margin-left: 70px;
+		padding-bottom: 20px;
+}
+
+article p:first-child{
+		color: #fff;
+		background: #e74c3c;
+		width: 45px;
+		padding: 3px;
+		text-align: center;
+		font-size: 40px;
+}
+
+article p:nth-child(2){
+		color: #fff;
+		background: #3e454c;
+		width: 45px;
+		padding: 3px;
+		text-align: center;
+		font-size: 15px;
+		margin-top: -40px;
+}
+
+span{
+		opacity: 0.5;
+}
+
+article p:nth-child(3){
+		width: 200px;
+		margin-left: 90px;
+		margin-top: -15px;
+}
+
+article h2{
+		margin-left: 90px;
+		margin-top: -130px;
+		padding-bottom: 10px;
+		width: 170px;
+}
+

@@ -1,0 +1,65 @@
+/* Css Beginning */
+
+body{
+		background: #ccc;
+		text-align: center;
+}
+
+section{
+		background: url("../images/parallax2.jpg") no-repeat;
+		width: 1455px;
+		height: 640px;
+		margin-left: -25px;
+}
+
+article{
+		padding-top: 150px;
+		color: #fff;
+		margin: 0 auto;
+}
+
+h2{
+		font-size: 35px;
+    	line-height: 36px;
+    	font-weight: 500;
+    	letter-spacing: 4.8px;
+    	text-transform: uppercase;
+}
+
+h6{
+		color: #ffa200;
+		font-size: 21px;
+}
+
+p{
+		font-size: 21px;
+    	line-height: 36px;
+    	font-weight: 500;
+    	letter-spacing: 4.8px;
+}
+
+img{
+		border-radius: 50%;
+		border: 3px solid #fff;
+		margin: 15px;
+}
+
+#top{
+		float: right;
+		margin-right: 80px;
+		margin-top: -90px;
+		width: 30px;
+		padding: 1px;
+		border-radius: 5px;
+		text-align: center;
+		background: #ffa200;
+		color: #fff;
+}
+
+a{
+		text-decoration: none;
+}
+
+#top:hover{
+		background: #999;
+}

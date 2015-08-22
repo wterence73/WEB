@@ -1,0 +1,72 @@
+/* Css Beginning */
+
+body{
+		background: #fff;
+}
+
+section{
+		background: url("../images/parallax01.jpg") no-repeat;
+		width: 1425px;
+		height: 870px;
+		margin-left: -9px;
+		margin-top: -155px;
+}
+
+h2{
+		text-align: center;
+		color: #fff;
+		font-size: 45px;
+		padding-top: 180px;
+		margin-bottom: 15px;
+}
+
+p{
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 18px;
+		padding-bottom: 50px;
+}
+
+button{
+		width: 80px;
+		height: 45px;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: 680px;
+		background: transparent;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 700;
+		border: 1px solid #bdb9ba;
+}
+
+input{
+		width: 330px;
+		height: 50px;
+		margin-left: 170px;
+		margin-right: -150px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		font-size: 13px;
+}
+
+a{
+		text-decoration: none;
+}
+
+button:hover{
+		background: rgba(255, 255, 255, 0.2);
+}
+
+form{
+		display: inline-block;
+}
+
+textarea{
+		height: 300px;
+		width: 1050px;
+		margin-left: 170px;
+		font-size: 13px;
+		text-transform: uppercase;
+}

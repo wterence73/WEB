@@ -55,21 +55,21 @@ li{
 		height: 40px;
 }
 
-a[href*="facebook.com"] {
-		background: url("../images/icon-facebook-white-1.png") no-repeat center;
+a[href*="http://www.facebook.com"] {
+		background: url("images/facebook-logo-white.png") no-repeat center;
 		background-size: 1rem;
 }
 
-a[href*="www.twitter.com/"] {
-		background: url("../images/twitter.png") no-repeat center;
+a[href*="https://www.twitter.com"] {
+		background: url("../images/twitter.gif") no-repeat center;
 		background-size: 1rem;
 }
 
-a[href*="google.com/+"]{
+a[href*="http://www.google.com/+/"]{
 		background-image: url("../images/google-plus.png") no-repeat center;
 }
 
-a[href*="instagram.com/"] {
+a[href*="https://instagram.com/"] {
 		background-image: url("../images/instagram.png") no-repeat center;
 }
 

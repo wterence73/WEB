@@ -7,9 +7,9 @@ body{
 section{
 		background: #0fcabf;
 		width: 1440px;
-		height: 500px;
+		height: 740px;
 		margin-left: -9px;
-		margin-top: 100px;
+		margin-top: -30px;
 		text-align: center;
 		padding-top: 30px;
 }
@@ -28,6 +28,7 @@ input{
 		margin-bottom: 5px;
 		width: 530px;
 		height: 62px;
+		border: 1px;
 }
 
 input[type='text']{
@@ -38,15 +39,33 @@ input[type='text']{
     color: #a0a0a0;
 }
 
-input:last-child{
-    line-height: 20px;
-    font-size: 15px;
-    font-family: open sans, sans-serif;
-    padding: 5px 5px 6px;
-    color: #a0a0a0;
+input:nth-child(4){
+		width: 530px;
+		height: 170px;
+}
+
+button{
+		margin-top: 5px;
+		margin-left: -200px;
+		margin-right: -200px;
+		width: 543px;
+		height: 65px;
+		background: #217d78;
+		color: #fff;
+		text-align: center;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: 0px;
 }
 
 input:hover{
-		background: ##0fcabf;
+		background-color: rgba(15, 202, 191, 0.2);
+		color: #fff;
+}
+
+button:hover{
+		color: #fff;
+		background: #000;
 }
 

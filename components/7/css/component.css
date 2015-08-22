@@ -1,0 +1,97 @@
+/* Css Beginning */
+
+body{
+		background: #fff;
+		font-family: open sans, arial, sans serif;
+}
+
+section{
+		background: url("../images/bg_pattern1.png");
+		margin-top: -15px;
+}
+
+h1{
+		margin-left: 200px;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		color: #5c5c5c;
+		font-size: 23px;
+		font-weight: bold;
+}
+
+article{
+		margin-left: 200px;
+		padding: 50px;
+}
+
+img{
+		margin-bottom: -15px;
+}
+
+h3{
+		color: #292929;
+		padding-bottom: 5px;
+		border-bottom: 1px solid #dcdcdc;
+		width: 75px;
+		text-align: center;
+}
+
+h2{
+		color: #292929;
+		font-size: 30px;
+		margin-left: 100px;
+		margin-top: -150px;
+		padding-bottom: 20px;
+		font-weight: 300;
+}
+
+p{
+		color: #292929;
+		font-size: 14px;
+		margin-bottom: -3px;
+		margin-top: -14px;
+		width: 200px;
+}
+
+a{
+		text-decoration: none;
+		color: #292929;
+}
+
+a:hover{
+		color: #72aeb4;
+}
+
+p:last-child{
+		margin-left: 100px;
+		margin-top: -30px;
+		width: 500px;
+}
+
+
+time{
+		color: #292929;
+		font-size: 14px;
+		margin-top: -1px;
+}
+
+aside{
+		float: right;
+		margin-top: -700px;
+		margin-right: 260px;
+}
+
+h4{
+		background-color: #ccc;
+		font-size: 20px;
+		font-weight: 700;
+		padding-left: 15px;
+}
+
+aside a{
+		color: #72aeb4;
+}
+
+aside a:hover{
+		color: #292929;
+}

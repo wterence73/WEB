@@ -8,7 +8,10 @@ body{
 section{
 		background: #82845d;
 		width: 1425px;
-		height: 900px;
+		height: 758px;
+		margin-left: -9px;
+		margin-top: -13px;
+		
 }
 
 article{
@@ -22,13 +25,36 @@ h2{
 		color: #fff;
 		font-size: 45px;
 		padding-left: 20px;
+		margin-bottom: -20px;
 }
 
 h3{
 		color: #fff;
 		padding-left: 20px;
+		font-size: 25px;
 }
 
 p{
 		padding-left: 20px;
+}
+
+.yellow{
+		background: #ffc000;
+		height: 290px;
+		margin-top: -50px;
+		padding: 15px;
+}
+
+.gold{
+		background: #d3b146;
+		height: 290px;
+		margin-top: -50px;
+		padding: 15px;
+}
+
+.orange{
+		background: #ff7200;
+		height: 290px;
+		margin-top: -50px;
+		padding: 15px;
 }

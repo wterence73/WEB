@@ -24,6 +24,14 @@ h4{
 	text-transform: uppercase;	
 }
 
+h2{
+		color: #fff;
+		margin-left: 500px;
+		margin-top: -420px;
+		padding: 5px;
+		font-size: 72px;
+}
+
 ul{
 		margin-left: 60px;
 		font-size: 16px;
@@ -55,29 +63,45 @@ article{
 		display: inline-block;
 		text-align: center;
 		float: left;
-		width: 370px;
-		padding-right: -90px;
-		margin-top: -390px;
-		margin-right: -460px;
+		width: 220px;
+		padding-right: -50px;
+		margin-top: -230px;
+		margin-right: -420px;
 		margin-left: 400px;
 }
 
 img { 
-	float: right;
+	float: left;
+	margin: 5px;
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 50px;
 }
 
 h5{
 		float: left;
 		clear: both;
-		width: 800px;
-		margin-top: 15px;
-		margin-left: -100px;
+		width: 60px;
+		text-align: left;
+		margin-top: -5px;
+		margin-left: 100px;
+		padding: 25px;
+		padding-right: 55px;
+		font-size: 19px;
+		background-color: #C63344;
+		color: #fff;
 }
 
 p{
 		float: left;
 		margin-top: 500px;
 		margin-left: -1100px;
+}
+
+article img:nth-child(2):before{
+		content="VS";
+		background-color: #C63344;
+		color: #fff;
 }
 
 

@@ -7,15 +7,16 @@ body{
 
 section{
 		background: url("../images/parallax2.jpg") no-repeat;
-		width: 1455px;
-		height: 640px;
-		margin-left: -25px;
+		width: 1586px;
+		height: 740px;
+		margin-left: -155px;
+		margin-top: -11px;
 }
 
 article{
-		padding-top: 150px;
+		padding-top: 250px;
 		color: #fff;
-		margin: 0 auto;
+		margin-left: 300px;
 }
 
 h2{
@@ -35,7 +36,7 @@ p{
 		font-size: 21px;
     	line-height: 36px;
     	font-weight: 500;
-    	letter-spacing: 4.8px;
+    	letter-spacing: 2px;
 }
 
 img{

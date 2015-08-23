@@ -64,15 +64,14 @@ article{
 
 img { 
 	float: right;
-	margin: 5px;
-	padding-bottom: 5px;
 }
 
 h5{
 		float: left;
-		width: 500px;
-		margin-top: 500px;
-		margin-left: -500px;
+		clear: both;
+		width: 800px;
+		margin-top: 15px;
+		margin-left: -100px;
 }
 
 p{
@@ -80,4 +79,5 @@ p{
 		margin-top: 500px;
 		margin-left: -1100px;
 }
+
 

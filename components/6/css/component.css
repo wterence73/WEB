@@ -55,22 +55,28 @@ li{
 		height: 40px;
 }
 
-a[href*="http://www.facebook.com"] {
-		background: url("images/facebook-logo-white.png") no-repeat center;
-		background-size: 1rem;
+li:first-child{
+		background: url("../images/icon-facebook-white-1.png") no-repeat center;
+		background-color: #32353a;
+		background-size: 1.5rem;
 }
 
-a[href*="https://www.twitter.com"] {
-		background: url("../images/twitter.gif") no-repeat center;
-		background-size: 1rem;
+li:nth-child(2){
+		background: url("../images/twitter_logo_white.gif") no-repeat center;
+		background-color: #32353a;
+		background-size: 6rem;
 }
 
-a[href*="http://www.google.com/+/"]{
-		background-image: url("../images/google-plus.png") no-repeat center;
+li:nth-child(3){
+		background: url("../images/googleplus-icon-02-01.png") no-repeat center;
+		background-color: #32353a;
+		background-size: 1.5rem;
 }
 
-a[href*="https://instagram.com/"] {
-		background-image: url("../images/instagram.png") no-repeat center;
+li:nth-child(4){
+		background: url("../images/instagram.png") no-repeat center;
+		background-color: #32353a;
+		background-size: 2rem;
 }
 
 li:hover{
@@ -80,6 +86,10 @@ li:hover{
 a{
 		text-decoration: none;
 		color: #636b76;
+}
+
+a:first-child, a:first-child:hover{
+		color: #fff;
 }
 
 a:hover{

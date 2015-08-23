@@ -65,8 +65,9 @@ form{
 
 textarea{
 		height: 300px;
-		width: 1050px;
+		width: 1025px;
 		margin-left: 170px;
 		font-size: 13px;
 		text-transform: uppercase;
+		padding: 15px;
 }

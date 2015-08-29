@@ -81,6 +81,8 @@ li:nth-child(4){
 
 li:hover{
 		background-color: #e84c3d;
+		transform: rotate(-55deg);
+		transform: skew(10deg,10deg);
 }
 
 a{

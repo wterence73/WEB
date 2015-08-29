@@ -45,6 +45,10 @@ h2{
 		font-weight: 300;
 }
 
+h2:hover{
+		text-transform: uppercase;
+}
+
 p{
 		color: #292929;
 		font-size: 14px;

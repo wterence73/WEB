@@ -45,7 +45,12 @@ img{
 		margin: 15px;
 }
 
-#top{
+img:hover{
+		transform: rotate(330deg);
+		border-color: #ba0e0e;
+}
+
+p:last-child{
 		float: right;
 		margin-right: 80px;
 		margin-top: -90px;
@@ -59,8 +64,13 @@ img{
 
 a{
 		text-decoration: none;
+		color: #fff;
 }
 
-#top:hover{
+p:last-child:hover{
 		background: #999;
+		border-radius: 50%;
+		transform: skew(10deg,10deg);
+		border: 2px solid #8ebd52;
+		color: #fff;
 }

@@ -57,6 +57,7 @@ a{
 
 button:hover{
 		background: rgba(255, 255, 255, 0.2);
+		transform: scaleX(1.5);
 }
 
 form{

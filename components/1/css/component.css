@@ -45,6 +45,9 @@ li{
 		line-height: 26px;
 }
 
+li:hover{
+		transform:rotate(20deg);
+}
 a{
 		color: #fff;
 		text-decoration: none;
@@ -57,3 +60,29 @@ li:nth-child(1)::after, li:nth-child(2)::after, li:nth-child(3)::after, li:nth-c
 		margin-left: 10px;
 }
 
+@media only screen and (max-width: 640px){
+
+		body{
+				max-width: 100%;
+		}
+		
+		p{
+				font-size: 1.938em;
+				max-width: 100%;
+				max-height: 100%;
+		}
+		
+		h1{
+				max-width: 100%;
+				max-height: 100%;
+		}
+		
+		li{
+				font-size: 1.500em;
+				max-width: 100%;
+				margin: 0 auto;
+		}
+
+
+
+}
